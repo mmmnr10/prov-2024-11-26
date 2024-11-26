@@ -1,0 +1,41 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .posts-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolumner på desktop */
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .post {
+    background-color: white;
+    border-radius: 7px;
+    padding: 30px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.747);
+  }
+  
+  .post h3 {
+    margin-top: 0;
+  }
+  
+  .post p {
+    margin-bottom: 0;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .posts-container {
+      grid-template-columns: 1fr; 
+    }
+  }
+  
+  
+  
+
+ 
